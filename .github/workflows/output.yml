@@ -4,5 +4,6 @@ jobs:
   info:
     runs-on: ubuntu-latest
     steps:
+      # Runs a set of commands using the runners shell for logs
       - name: Output GitHub Context
         run: echo "${{ toJSON(github) }}"
