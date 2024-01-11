@@ -10,3 +10,6 @@
 - **_GitHub Workflow Syntax:_** https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onpushbranchestagsbranches-ignoretags-ignore
 - **_GitHub Skipping Workflow:_** https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs
 - **_GitHub Artifact:_** https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts
+- **_GitHub Artifact:_** https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts
+- **_GitHub Cache:_** https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows
+- **_GitHub Cache Repo:_** https://github.com/actions/cache
