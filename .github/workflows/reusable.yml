@@ -33,5 +33,5 @@ jobs:
 
       - name: Set result output
         run: |
-          echo "::set-output name=step-result::success"
+          echo "::set-output=step-result::success"
           echo "step-result=success" >> $GITHUB_OUTPUT
