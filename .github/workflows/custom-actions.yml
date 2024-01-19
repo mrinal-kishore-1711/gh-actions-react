@@ -25,6 +25,8 @@ jobs:
 
       - name: Load & Cache dependencies
         uses: ./.github/actions/cache-deps
+        with:
+          caching: 'false'
 
       - name: Test code
         id: run-tests
