@@ -1,4 +1,4 @@
-name: Custom Actions
+name: Custom Actions - Composite
 on:
   push:
     branches:
@@ -80,12 +80,3 @@ jobs:
 
       - name: Deploy site
         run: echo "Deploying..."
-
-  information:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get code
-        uses: actions/checkout@v3
-
-      - name: Run Custom action
-        uses: ./.github/actions/deploy-s3-js
